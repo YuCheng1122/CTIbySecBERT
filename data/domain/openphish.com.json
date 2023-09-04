@@ -6,33 +6,12 @@
                     "priority": 5,
                     "type": "MX",
                     "value": "alt2.aspmx.l.google.com",
-                    "ttl": 624
-                },
-                {
-                    "type": "TXT",
-                    "value": "9zqcchndc21vtmcnr3ymbsf601lr9ylt",
-                    "ttl": 3600
-                },
-                {
-                    "priority": 10,
-                    "type": "MX",
-                    "value": "alt3.aspmx.l.google.com",
-                    "ttl": 624
-                },
-                {
-                    "type": "TXT",
-                    "value": "c81yh6ps7pyv671x4pzr8q4n50dhn0pd",
-                    "ttl": 3600
+                    "ttl": 1800
                 },
                 {
                     "type": "NS",
                     "value": "ns2.digitalocean.com",
-                    "ttl": 550
-                },
-                {
-                    "type": "NS",
-                    "value": "ns1.digitalocean.com",
-                    "ttl": 550
+                    "ttl": 1233
                 },
                 {
                     "type": "TXT",
@@ -40,42 +19,20 @@
                     "ttl": 3600
                 },
                 {
-                    "priority": 1,
-                    "type": "MX",
-                    "value": "aspmx.l.google.com",
-                    "ttl": 624
+                    "type": "TXT",
+                    "value": "amazonses:04WWPMSabDv1PUxCv5hE+eykatzpDC+doQz/9dfm+3Y=",
+                    "ttl": 3600
                 },
                 {
-                    "type": "A",
-                    "value": "146.185.189.167",
-                    "ttl": 581
-                },
-                {
-                    "priority": 10,
-                    "type": "MX",
-                    "value": "alt4.aspmx.l.google.com",
-                    "ttl": 624
-                },
-                {
-                    "type": "NS",
-                    "value": "ns3.digitalocean.com",
-                    "ttl": 550
+                    "type": "TXT",
+                    "value": "9zqcchndc21vtmcnr3ymbsf601lr9ylt",
+                    "ttl": 3600
                 },
                 {
                     "priority": 5,
                     "type": "MX",
                     "value": "alt1.aspmx.l.google.com",
-                    "ttl": 624
-                },
-                {
-                    "type": "TXT",
-                    "value": "google-site-verification=ISySRRnnOea808SRpDfXLWlFuAC_oH4Mgq46lXcPp2c",
-                    "ttl": 3600
-                },
-                {
-                    "type": "TXT",
-                    "value": "amazonses:04WWPMSabDv1PUxCv5hE+eykatzpDC+doQz/9dfm+3Y=",
-                    "ttl": 3600
+                    "ttl": 1800
                 },
                 {
                     "rname": "hostmaster.openphish.com",
@@ -87,16 +44,59 @@
                     "ttl": 1800,
                     "serial": 1676763082,
                     "type": "SOA"
+                },
+                {
+                    "type": "NS",
+                    "value": "ns3.digitalocean.com",
+                    "ttl": 1233
+                },
+                {
+                    "type": "A",
+                    "value": "146.185.189.167",
+                    "ttl": 296
+                },
+                {
+                    "type": "NS",
+                    "value": "ns1.digitalocean.com",
+                    "ttl": 1233
+                },
+                {
+                    "type": "TXT",
+                    "value": "c81yh6ps7pyv671x4pzr8q4n50dhn0pd",
+                    "ttl": 3600
+                },
+                {
+                    "priority": 1,
+                    "type": "MX",
+                    "value": "aspmx.l.google.com",
+                    "ttl": 1800
+                },
+                {
+                    "type": "TXT",
+                    "value": "google-site-verification=ISySRRnnOea808SRpDfXLWlFuAC_oH4Mgq46lXcPp2c",
+                    "ttl": 3600
+                },
+                {
+                    "priority": 10,
+                    "type": "MX",
+                    "value": "alt4.aspmx.l.google.com",
+                    "ttl": 1800
+                },
+                {
+                    "priority": 10,
+                    "type": "MX",
+                    "value": "alt3.aspmx.l.google.com",
+                    "ttl": 1800
                 }
             ],
             "jarm": "29d29d15d29d29d21c29d29d29d29dc80334825071f8ff93376ac14c5a331f",
-            "whois": "Creation Date: 2014-07-01T17:35:04Z\nDNSSEC: unsigned\nDomain Name: OPENPHISH.COM\nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nName Server: NS1.DIGITALOCEAN.COM\nName Server: NS2.DIGITALOCEAN.COM\nName Server: NS3.DIGITALOCEAN.COM\nRegistrar Abuse Contact Email: registrar-abuse@google.com\nRegistrar Abuse Contact Phone: +1.8772376466\nRegistrar IANA ID: 895\nRegistrar URL: http://domains.google.com\nRegistrar WHOIS Server: whois.google.com\nRegistrar: Google LLC\nRegistry Domain ID: 1865079081_DOMAIN_COM-VRSN\nRegistry Expiry Date: 2024-07-01T17:35:04Z\nUpdated Date: 2023-07-01T22:27:49Z",
-            "last_https_certificate_date": 1693383584,
+            "whois": "Admin City: Sanford\nAdmin Country: US\nAdmin Organization: Private by Design, LLC\nAdmin Postal Code: 27330\nAdmin State/Province: NC\nCreated Date: 2014-07-01 17:35:04\nCreation Date: 2014-07-01T17:35:04Z\nDNSSEC: unsigned\nDomain Name: OPENPHISH.COM\nDomain Status: clientDeleteProhibited http://icann.org/epp#clientDeleteProhibited\nDomain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited\nDomain Status: clientTransferProhibited http://icann.org/epp#clientTransferProhibited\nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nName Server: NS1.DIGITALOCEAN.COM\nName Server: NS2.DIGITALOCEAN.COM\nName Server: NS3.DIGITALOCEAN.COM\nName Server: ns1.digitalocean.com\nName Server: ns2.digitalocean.com\nName Server: ns3.digitalocean.com\nRegistrant City: 2ab5101c3c03a542\nRegistrant Country: US\nRegistrant Email: 0860a252bcf677c8s@\nRegistrant Fax Ext: 3432650ec337c945\nRegistrant Fax: 3432650ec337c945\nRegistrant Name: 99f9e3def34088de\nRegistrant Organization: 0c0ae3ca894d74a0\nRegistrant Phone Ext: 3432650ec337c945\nRegistrant Phone: cced364eac860795\nRegistrant Postal Code: 049e7ea575ee0e64\nRegistrant State/Province: b5ccaeb3c805e2cb\nRegistrant Street: fd7c6dfcc1471820\nRegistrar Abuse Contact Email: abuse@porkbun.com\nRegistrar Abuse Contact Phone: +1.5038508351\nRegistrar Abuse Contact Phone: 5038508351\nRegistrar IANA ID: 1861\nRegistrar Registration Expiration Date: 2025-07-01 17:35:04\nRegistrar URL: http://porkbun.com\nRegistrar URL: http://www.porkbun.com\nRegistrar WHOIS Server: whois.porkbun.com\nRegistrar: Porkbun LLC\nRegistry Domain ID: 1865079081_DOMAIN_COM-VRSN\nRegistry Expiry Date: 2025-07-01T17:35:04Z\nTech City: Sanford\nTech Country: US\nTech Organization: Private by Design, LLC\nTech Postal Code: 27330\nTech State/Province: NC\nUpdated Date: 2023-08-25 03:33:07\nUpdated Date: 2023-08-25T03:33:08Z",
+            "last_https_certificate_date": 1693816594,
             "tags": [],
             "popularity_ranks": {
                 "Majestic": {
-                    "timestamp": 1693673917,
-                    "rank": 601153
+                    "timestamp": 1693760304,
+                    "rank": 588955
                 },
                 "Statvoo": {
                     "timestamp": 1674925086,
@@ -107,12 +107,12 @@
                     "rank": 259210
                 },
                 "Cisco Umbrella": {
-                    "timestamp": 1693673888,
-                    "rank": 491189
+                    "timestamp": 1693760293,
+                    "rank": 395636
                 }
             },
-            "last_analysis_date": 1693383568,
-            "last_dns_records_date": 1693383584,
+            "last_analysis_date": 1693816582,
+            "last_dns_records_date": 1693816594,
             "last_analysis_stats": {
                 "harmless": 67,
                 "malicious": 1,
@@ -121,9 +121,9 @@
                 "timeout": 0
             },
             "creation_date": 1404236104,
-            "whois_date": 1691202429,
+            "whois_date": 1693816594,
             "reputation": 44,
-            "registrar": "Google LLC",
+            "registrar": "Porkbun LLC",
             "last_analysis_results": {
                 "Bkav": {
                     "category": "undetected",
@@ -648,8 +648,8 @@
                     "engine_name": "Bfore.Ai PreCrime"
                 }
             },
-            "last_update_date": 1688250469,
-            "last_modification_date": 1693686676,
+            "last_update_date": 1692934388,
+            "last_modification_date": 1693816595,
             "tld": "com",
             "last_https_certificate": {
                 "public_key": {

@@ -22,7 +22,7 @@ if __name__ == '__main__':
     for domain in domains:
         info = get_domain_info(domain)
         if info:
-            data_path = os.path.join('./data', f'{domain}.json')
+            data_path = os.path.join('./data/domain', f'{domain}.json')
             with open(data_path, 'w') as f:
                 json.dump(info, f, indent=4)
             print(f'Data saved to {data_path}')

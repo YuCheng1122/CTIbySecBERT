@@ -117,8 +117,8 @@
             "tags": [],
             "popularity_ranks": {
                 "Majestic": {
-                    "timestamp": 1693673884,
-                    "rank": 17118
+                    "timestamp": 1693760287,
+                    "rank": 17137
                 },
                 "Statvoo": {
                     "timestamp": 1684169885,
@@ -129,8 +129,8 @@
                     "rank": 141685
                 },
                 "Cisco Umbrella": {
-                    "timestamp": 1693673889,
-                    "rank": 617893
+                    "timestamp": 1693760295,
+                    "rank": 549184
                 },
                 "Quantcast": {
                     "timestamp": 1585841766,
@@ -675,7 +675,7 @@
                 }
             },
             "last_update_date": 1677816025,
-            "last_modification_date": 1693740812,
+            "last_modification_date": 1693824616,
             "tld": "com",
             "last_https_certificate": {
                 "public_key": {
@@ -690,9 +690,9 @@
                 "subject": {
                     "C": "US",
                     "ST": "California",
-                    "L": "San Francisco",
+                    "CN": "sni.cloudflaressl.com",
                     "O": "Cloudflare, Inc.",
-                    "CN": "sni.cloudflaressl.com"
+                    "L": "San Francisco"
                 },
                 "validity": {
                     "not_after": "2024-05-16 23:59:59",

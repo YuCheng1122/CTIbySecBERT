@@ -3,47 +3,22 @@
         "attributes": {
             "last_dns_records": [
                 {
-                    "flag": 0,
-                    "tag": "issue",
-                    "type": "CAA",
-                    "value": "pki.goog",
-                    "ttl": 21600
-                },
-                {
-                    "priority": 10,
+                    "priority": 20,
                     "type": "MX",
-                    "value": "aspmx.l.google.com",
+                    "value": "alt1.aspmx.l.google.com",
                     "ttl": 3600
                 },
                 {
-                    "type": "NS",
-                    "value": "ns-cloud-c1.googledomains.com",
-                    "ttl": 21600
-                },
-                {
-                    "type": "TXT",
-                    "value": "google-site-verification=Qq9eZi7f40MwYOcrV5vdApFIaFm4aneacq0Lzrcnugg",
+                    "priority": 30,
+                    "type": "MX",
+                    "value": "aspmx2.googlemail.com",
                     "ttl": 3600
                 },
                 {
-                    "type": "NS",
-                    "value": "ns-cloud-c4.googledomains.com",
-                    "ttl": 21600
-                },
-                {
-                    "type": "NS",
-                    "value": "ns-cloud-c2.googledomains.com",
-                    "ttl": 21600
-                },
-                {
-                    "type": "AAAA",
-                    "value": "2001:4860:4802:38::15",
-                    "ttl": 284
-                },
-                {
-                    "type": "NS",
-                    "value": "ns-cloud-c3.googledomains.com",
-                    "ttl": 21600
+                    "priority": 30,
+                    "type": "MX",
+                    "value": "aspmx3.googlemail.com",
+                    "ttl": 3600
                 },
                 {
                     "flag": 0,
@@ -53,9 +28,23 @@
                     "ttl": 21600
                 },
                 {
-                    "priority": 30,
-                    "type": "MX",
-                    "value": "aspmx3.googlemail.com",
+                    "type": "AAAA",
+                    "value": "2001:4860:4802:38::15",
+                    "ttl": 300
+                },
+                {
+                    "type": "A",
+                    "value": "216.239.36.21",
+                    "ttl": 109
+                },
+                {
+                    "type": "NS",
+                    "value": "ns-cloud-c1.googledomains.com",
+                    "ttl": 21600
+                },
+                {
+                    "type": "TXT",
+                    "value": "v=spf1 include:_spf.google.com include:_spf.zdsys.com include:mail.zendesk.com include:2567647.spf07.hubspotemail.net -all",
                     "ttl": 3600
                 },
                 {
@@ -65,30 +54,43 @@
                     "ttl": 3600
                 },
                 {
-                    "type": "AAAA",
-                    "value": "2001:4860:4802:34::15",
-                    "ttl": 284
+                    "flag": 0,
+                    "tag": "issue",
+                    "type": "CAA",
+                    "value": "pki.goog",
+                    "ttl": 21600
                 },
                 {
                     "type": "A",
                     "value": "216.239.32.21",
-                    "ttl": 208
+                    "ttl": 109
                 },
                 {
-                    "type": "TXT",
-                    "value": "v=spf1 include:_spf.google.com include:_spf.zdsys.com include:mail.zendesk.com include:2567647.spf07.hubspotemail.net -all",
-                    "ttl": 3600
+                    "flag": 0,
+                    "tag": "issue",
+                    "type": "CAA",
+                    "value": "digicert.com",
+                    "ttl": 21600
+                },
+                {
+                    "type": "A",
+                    "value": "216.239.38.21",
+                    "ttl": 109
+                },
+                {
+                    "type": "NS",
+                    "value": "ns-cloud-c2.googledomains.com",
+                    "ttl": 21600
+                },
+                {
+                    "type": "AAAA",
+                    "value": "2001:4860:4802:32::15",
+                    "ttl": 300
                 },
                 {
                     "type": "AAAA",
                     "value": "2001:4860:4802:36::15",
-                    "ttl": 284
-                },
-                {
-                    "priority": 30,
-                    "type": "MX",
-                    "value": "aspmx2.googlemail.com",
-                    "ttl": 3600
+                    "ttl": 300
                 },
                 {
                     "rname": "cloud-dns-hostmaster.google.com",
@@ -102,27 +104,20 @@
                     "type": "SOA"
                 },
                 {
-                    "type": "AAAA",
-                    "value": "2001:4860:4802:32::15",
-                    "ttl": 284
+                    "type": "NS",
+                    "value": "ns-cloud-c3.googledomains.com",
+                    "ttl": 21600
                 },
                 {
-                    "type": "A",
-                    "value": "216.239.36.21",
-                    "ttl": 208
-                },
-                {
-                    "priority": 20,
-                    "type": "MX",
-                    "value": "alt1.aspmx.l.google.com",
+                    "type": "TXT",
+                    "value": "google-site-verification=Qq9eZi7f40MwYOcrV5vdApFIaFm4aneacq0Lzrcnugg",
                     "ttl": 3600
                 },
                 {
-                    "flag": 0,
-                    "tag": "issue",
-                    "type": "CAA",
-                    "value": "digicert.com",
-                    "ttl": 21600
+                    "priority": 10,
+                    "type": "MX",
+                    "value": "aspmx.l.google.com",
+                    "ttl": 3600
                 },
                 {
                     "flag": 0,
@@ -133,23 +128,28 @@
                 },
                 {
                     "type": "A",
-                    "value": "216.239.38.21",
-                    "ttl": 208
+                    "value": "216.239.34.21",
+                    "ttl": 109
                 },
                 {
-                    "type": "A",
-                    "value": "216.239.34.21",
-                    "ttl": 208
+                    "type": "AAAA",
+                    "value": "2001:4860:4802:34::15",
+                    "ttl": 300
+                },
+                {
+                    "type": "NS",
+                    "value": "ns-cloud-c4.googledomains.com",
+                    "ttl": 21600
                 }
             ],
             "jarm": "29d3fd00029d29d21c42d43d00041d188e8965256b2536432a9bd447ae607f",
             "whois": "Admin Country: ES\nAdmin Organization: VirusTotal\nAdmin State/Province: Malaga\nCreation Date: 2002-09-18T00:16:09+0000\nCreation Date: 2002-09-18T00:16:09Z\nDNSSEC: unsigned\nDomain Name: VIRUSTOTAL.COM\nDomain Name: virustotal.com\nDomain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)\nDomain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited\nDomain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)\nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nDomain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)\nDomain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited\nName Server: NS-CLOUD-C1.GOOGLEDOMAINS.COM\nName Server: NS-CLOUD-C2.GOOGLEDOMAINS.COM\nName Server: NS-CLOUD-C3.GOOGLEDOMAINS.COM\nName Server: NS-CLOUD-C4.GOOGLEDOMAINS.COM\nName Server: ns-cloud-c1.googledomains.com\nName Server: ns-cloud-c2.googledomains.com\nName Server: ns-cloud-c3.googledomains.com\nName Server: ns-cloud-c4.googledomains.com\nRegistrant Country: ES\nRegistrant Email: 1ecd1739ef269eacs@\nRegistrant Organization: bf2e97853c84fa5d\nRegistrant State/Province: b201d780faea6e45\nRegistrar Abuse Contact Email: abusecomplaints@markmonitor.com\nRegistrar Abuse Contact Phone: +1.2086851750\nRegistrar IANA ID: 292\nRegistrar Registration Expiration Date: 2023-09-18T00:00:00+0000\nRegistrar URL: http://www.markmonitor.com\nRegistrar WHOIS Server: whois.markmonitor.com\nRegistrar: MarkMonitor Inc.\nRegistrar: MarkMonitor, Inc.\nRegistry Domain ID: 90372641_DOMAIN_COM-VRSN\nRegistry Expiry Date: 2023-09-18T00:16:13Z\nTech Country: ES\nTech Organization: VirusTotal\nTech State/Province: Malaga\nUpdated Date: 2022-11-06T13:42:25+0000\nUpdated Date: 2022-11-06T13:42:25Z",
-            "last_https_certificate_date": 1693736315,
+            "last_https_certificate_date": 1693822802,
             "tags": [],
             "popularity_ranks": {
                 "Majestic": {
-                    "timestamp": 1693673883,
-                    "rank": 1835
+                    "timestamp": 1693760287,
+                    "rank": 1829
                 },
                 "Statvoo": {
                     "timestamp": 1684169881,
@@ -160,16 +160,16 @@
                     "rank": 1608
                 },
                 "Cisco Umbrella": {
-                    "timestamp": 1693673882,
-                    "rank": 45694
+                    "timestamp": 1693760287,
+                    "rank": 47228
                 },
                 "Quantcast": {
                     "timestamp": 1585755370,
                     "rank": 7184
                 }
             },
-            "last_analysis_date": 1693736008,
-            "last_dns_records_date": 1693736315,
+            "last_analysis_date": 1693822499,
+            "last_dns_records_date": 1693822802,
             "last_analysis_stats": {
                 "harmless": 69,
                 "malicious": 0,
@@ -706,7 +706,7 @@
                 }
             },
             "last_update_date": 1667742145,
-            "last_modification_date": 1693739978,
+            "last_modification_date": 1693827921,
             "tld": "com",
             "last_https_certificate": {
                 "size": 1713,
@@ -776,6 +776,7 @@
             "categories": {
                 "Forcepoint ThreatSeeker": "computer security",
                 "Sophos": "information technology",
+                "Xcitium Verdict Cloud": "mobile communications",
                 "BitDefender": "computersandsoftware"
             },
             "total_votes": {

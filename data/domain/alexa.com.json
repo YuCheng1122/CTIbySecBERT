@@ -3,8 +3,19 @@
         "attributes": {
             "last_dns_records": [
                 {
+                    "priority": 10,
+                    "type": "MX",
+                    "value": "amazon-smtp.amazon.com",
+                    "ttl": 1860
+                },
+                {
                     "type": "A",
-                    "value": "34.194.93.221",
+                    "value": "3.224.174.249",
+                    "ttl": 60
+                },
+                {
+                    "type": "NS",
+                    "value": "ns-1324.awsdns-37.org",
                     "ttl": 60
                 },
                 {
@@ -13,28 +24,24 @@
                     "ttl": 60
                 },
                 {
-                    "type": "NS",
-                    "value": "ns-672.awsdns-20.net",
-                    "ttl": 60
-                },
-                {
-                    "type": "TXT",
-                    "value": "MS=ms93718864",
-                    "ttl": 3600
-                },
-                {
                     "type": "A",
                     "value": "34.235.182.93",
                     "ttl": 60
                 },
                 {
-                    "type": "A",
-                    "value": "107.23.113.53",
-                    "ttl": 60
+                    "rname": "awsdns-hostmaster.amazon.com",
+                    "retry": 900,
+                    "value": "ns-1324.awsdns-37.org",
+                    "minimum": 300,
+                    "refresh": 7200,
+                    "expire": 1209600,
+                    "ttl": 300,
+                    "serial": 1,
+                    "type": "SOA"
                 },
                 {
-                    "type": "A",
-                    "value": "52.204.141.242",
+                    "type": "NS",
+                    "value": "ns-672.awsdns-20.net",
                     "ttl": 60
                 },
                 {
@@ -49,45 +56,38 @@
                 },
                 {
                     "type": "NS",
-                    "value": "ns-1324.awsdns-37.org",
-                    "ttl": 60
-                },
-                {
-                    "type": "NS",
                     "value": "ns-115.awsdns-14.com",
                     "ttl": 60
                 },
                 {
-                    "priority": 10,
-                    "type": "MX",
-                    "value": "amazon-smtp.amazon.com",
-                    "ttl": 1860
-                },
-                {
-                    "rname": "awsdns-hostmaster.amazon.com",
-                    "retry": 900,
-                    "value": "ns-1324.awsdns-37.org",
-                    "minimum": 300,
-                    "refresh": 7200,
-                    "expire": 1209600,
-                    "ttl": 300,
-                    "serial": 1,
-                    "type": "SOA"
+                    "type": "TXT",
+                    "value": "MS=ms93718864",
+                    "ttl": 3600
                 },
                 {
                     "type": "A",
-                    "value": "3.224.174.249",
+                    "value": "34.194.93.221",
+                    "ttl": 60
+                },
+                {
+                    "type": "A",
+                    "value": "107.23.113.53",
+                    "ttl": 60
+                },
+                {
+                    "type": "A",
+                    "value": "52.204.141.242",
                     "ttl": 60
                 }
             ],
             "jarm": "29d29d00029d29d21c29d29d29d29d3ffaa8e1bc320d2170056165032c5661",
             "whois": "Admin Country: US\nAdmin Organization: Amazon Technologies, Inc.\nAdmin State/Province: NV\nCreation Date: 1996-07-17T04:00:00+0000\nCreation Date: 1996-07-17T04:00:00Z\nDNSSEC: unsigned\nDomain Name: ALEXA.COM\nDomain Name: alexa.com\nDomain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)\nDomain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited\nDomain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)\nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nDomain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)\nDomain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited\nDomain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)\nDomain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited\nDomain Status: serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)\nDomain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited\nDomain Status: serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)\nDomain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited\nName Server: NS-115.AWSDNS-14.COM\nName Server: NS-1324.AWSDNS-37.ORG\nName Server: NS-1556.AWSDNS-02.CO.UK\nName Server: NS-672.AWSDNS-20.NET\nName Server: ns-115.awsdns-14.com\nName Server: ns-1324.awsdns-37.org\nName Server: ns-1556.awsdns-02.co.uk\nName Server: ns-672.awsdns-20.net\nRegistrant Country: US\nRegistrant Email: 7e272d1045385d77s@\nRegistrant Organization: 69d34eb28e786bf0\nRegistrant State/Province: d5021408f156b0c7\nRegistrar Abuse Contact Email: abusecomplaints@markmonitor.com\nRegistrar Abuse Contact Phone: +1.2086851750\nRegistrar IANA ID: 292\nRegistrar Registration Expiration Date: 2024-07-15T07:00:00+0000\nRegistrar URL: http://www.markmonitor.com\nRegistrar WHOIS Server: whois.markmonitor.com\nRegistrar: MarkMonitor Inc.\nRegistrar: MarkMonitor, Inc.\nRegistry Domain ID: 5324166_DOMAIN_COM-VRSN\nRegistry Expiry Date: 2024-07-16T04:00:00Z\nTech Country: US\nTech Organization: Amazon Technologies, Inc.\nTech State/Province: NV\nUpdated Date: 2023-01-12T19:24:06+0000\nUpdated Date: 2023-01-12T20:23:23Z",
-            "last_https_certificate_date": 1693339232,
+            "last_https_certificate_date": 1693758460,
             "tags": [],
             "popularity_ranks": {
                 "Majestic": {
-                    "timestamp": 1693673883,
-                    "rank": 962
+                    "timestamp": 1693760287,
+                    "rank": 965
                 },
                 "Statvoo": {
                     "timestamp": 1650992282,
@@ -98,16 +98,16 @@
                     "rank": 2985
                 },
                 "Cisco Umbrella": {
-                    "timestamp": 1693673883,
-                    "rank": 81959
+                    "timestamp": 1693760288,
+                    "rank": 92528
                 },
                 "Quantcast": {
                     "timestamp": 1585668963,
                     "rank": 11807
                 }
             },
-            "last_analysis_date": 1693339230,
-            "last_dns_records_date": 1693339232,
+            "last_analysis_date": 1693758153,
+            "last_dns_records_date": 1693758460,
             "last_analysis_stats": {
                 "harmless": 69,
                 "malicious": 0,
@@ -644,7 +644,7 @@
                 }
             },
             "last_update_date": 1673555003,
-            "last_modification_date": 1693686552,
+            "last_modification_date": 1693774424,
             "tld": "com",
             "last_https_certificate": {
                 "public_key": {

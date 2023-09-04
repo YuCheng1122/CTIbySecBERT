@@ -3,3 +3,4 @@ secbert_env/
 *.dll
 *.lib
 *.pyd
+cti/

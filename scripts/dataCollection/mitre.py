@@ -1,7 +1,7 @@
 import requests
 import json
 import os
-
+import stix2
 def fetch_mitre_data():
     api_url = 'https://cti-taxii.mitre.org/stix/collections/95ecc380-afe9-11e4-9b6c-751b66dd541e/objects/'
     headers = {

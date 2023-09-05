@@ -4,3 +4,4 @@ secbert_env/
 *.lib
 *.pyd
 cti/
+saved_model/

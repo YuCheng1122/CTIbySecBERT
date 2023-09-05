@@ -117,8 +117,8 @@
             "tags": [],
             "popularity_ranks": {
                 "Majestic": {
-                    "timestamp": 1693760287,
-                    "rank": 17137
+                    "timestamp": 1693846689,
+                    "rank": 17029
                 },
                 "Statvoo": {
                     "timestamp": 1684169885,
@@ -129,8 +129,8 @@
                     "rank": 141685
                 },
                 "Cisco Umbrella": {
-                    "timestamp": 1693760295,
-                    "rank": 549184
+                    "timestamp": 1693846812,
+                    "rank": 426300
                 },
                 "Quantcast": {
                     "timestamp": 1585841766,
@@ -140,10 +140,10 @@
             "last_analysis_date": 1693517753,
             "last_dns_records_date": 1693518059,
             "last_analysis_stats": {
-                "harmless": 68,
+                "harmless": 67,
                 "malicious": 0,
                 "suspicious": 0,
-                "undetected": 20,
+                "undetected": 21,
                 "timeout": 0
             },
             "creation_date": 1143159975,
@@ -361,12 +361,6 @@
                     "method": "blacklist",
                     "engine_name": "Trustwave"
                 },
-                "AICC (MONITORAPP)": {
-                    "category": "harmless",
-                    "result": "clean",
-                    "method": "blacklist",
-                    "engine_name": "AICC (MONITORAPP)"
-                },
                 "CyRadar": {
                     "category": "harmless",
                     "result": "clean",
@@ -450,6 +444,12 @@
                     "result": "clean",
                     "method": "blacklist",
                     "engine_name": "DNS8"
+                },
+                "AILabs (MONITORAPP)": {
+                    "category": "undetected",
+                    "result": "unrated",
+                    "method": "blacklist",
+                    "engine_name": "AILabs (MONITORAPP)"
                 },
                 "benkow.cc": {
                     "category": "harmless",
@@ -675,7 +675,7 @@
                 }
             },
             "last_update_date": 1677816025,
-            "last_modification_date": 1693824616,
+            "last_modification_date": 1693885886,
             "tld": "com",
             "last_https_certificate": {
                 "public_key": {
